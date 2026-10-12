@@ -1,0 +1,14 @@
+<idea-plugin>
+    <id>com.httpcheese.bracketshighlighter</id>
+    <name>Log Brackets Highlighter</name>
+    <vendor>HTTPcheese</vendor>
+    <description><![CDATA[
+        Highlights matching parentheses, square brackets, and curly brackets in .log files while preserving PhpStorm's built-in log highlighting.
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <postStartupActivity implementation="com.httpcheese.bracketshighlighter.LogBracketsHighlighterStartupActivity"/>
+    </extensions>
+</idea-plugin>

@@ -1,0 +1,7 @@
+.gradle/
+build/*
+!build/distributions/
+!build/distributions/*.zip
+.idea/
+*.iml
+gradle-*/

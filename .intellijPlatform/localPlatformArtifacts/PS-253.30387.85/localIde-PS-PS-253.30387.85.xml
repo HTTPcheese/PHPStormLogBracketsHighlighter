@@ -1,0 +1,10 @@
+<ivy-module version="2.0">
+  <info organisation="localIde" module="PS" revision="PS-253.30387.85"/>
+  <configurations>
+    <conf name="default" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="Program Files/JetBrains/PhpStorm 2025.3.2" ext="directory" conf="default"/>
+  </publications>
+  <dependencies/>
+</ivy-module>
